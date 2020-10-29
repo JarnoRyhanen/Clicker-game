@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#6FACDAC9"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/game_screen_title"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Start Clicking!"
+            android:textSize="40dp"
+            />
+
+        <Button
+            android:id="@+id/game_screen_save_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="Save"
+
+            />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/game_screen_plus_1"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="4dp"
+        android:text="+1"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:id="@+id/game_screen_output"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/idle_text"
+        android:textSize="20dp"
+
+        tools:text="text"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <Button
+            android:id="@+id/game_screen_plus_10"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="+10"
+            android:textSize="20dp"
+            />
+
+
+        <ProgressBar
+            android:id="@+id/game_screen_plus_10_progress"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="100dp"
+            android:layout_height="10dp"
+            android:layout_gravity="center"
+            android:background="#6807EF"
+            android:backgroundTint="@color/cardview_dark_background"
+            android:max="100"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <Button
+            android:id="@+id/game_screen_plus_100"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="4dp"
+            android:text="+100"
+            android:textSize="20dp"
+            />
+
+        <ProgressBar
+            android:id="@+id/game_screen_plus_100_progress"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="100dp"
+            android:layout_height="10dp"
+            android:layout_gravity="center"
+            android:background="#6807EF"
+            android:backgroundTint="@color/cardview_dark_background"
+            android:max="60"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <Button
+            android:id="@+id/game_screen_random_number"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="4dp"
+            android:text="Random"
+            android:textSize="15dp"
+            />
+
+        <ProgressBar
+            android:id="@+id/game_screen_random_number_progress"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="100dp"
+            android:layout_height="10dp"
+            android:layout_gravity="center"
+            android:background="#6807EF"
+            android:backgroundTint="@color/cardview_dark_background"
+            android:max="100"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

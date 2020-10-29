@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Super Duper Clicker Game"
+        android:textSize="30dp"
+        />
+    <Button
+        android:id="@+id/main_activity_new_game"
+        android:layout_marginTop="16dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:padding="16dp"
+        android:text="New Game"
+        android:textSize="20dp"
+        />
+
+
+    <Button
+        android:id="@+id/main_activity_load_game"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:padding="8dp"
+        android:text="Load Game"
+        android:textSize="20dp"
+        />
+</LinearLayout>
